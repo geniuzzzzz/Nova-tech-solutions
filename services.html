@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | NovaTech Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/services.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container flex items-center justify-between">
+            <a href="index.html" class="logo">
+                <i class="fas fa-rocket logo-icon"></i>
+                NovaTech Solutions
+            </a>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#" id="demoBtn">Get Demo</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="particles" id="particles"></div>
+        <div class="container">
+            <h1>Our Technology Services</h1>
+            <p>Comprehensive solutions designed to transform your business through innovation and cutting-edge technology</p>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <a href="services.html">Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Tabs -->
+    <section class="section services-tabs-container">
+        <div class="container">
+            <h2 class="section-title text-center">Our Core Services</h2>
+            <p class="section-subtitle text-center">Explore our comprehensive suite of technology solutions designed to drive your business forward</p>
+            
+            <div class="services-tabs" id="servicesTabs">
+                <button class="tab-btn active" data-tab="ai-automation">
+                    <i class="fas fa-robot"></i> AI Automation
+                </button>
+                <button class="tab-btn" data-tab="cloud-management">
+                    <i class="fas fa-cloud"></i> Cloud Solutions
+                </button>
+                <button class="tab-btn" data-tab="crm-analytics">
+                    <i class="fas fa-chart-line"></i> CRM Analytics
+                </button>
+                <button class="tab-btn" data-tab="cybersecurity">
+                    <i class="fas fa-shield-alt"></i> Cybersecurity
+                </button>
+                <button class="tab-btn" data-tab="custom-software">
+                    <i class="fas fa-code"></i> Custom Software
+                </button>
+            </div>
+            
+            <!-- AI Automation Service -->
+            <div class="service-details active" id="ai-automation">
+                <div class="service-content">
+                    <div class="service-text">
+                        <h2>AI-Powered Business Automation</h2>
+                        <p>Transform your operations with our cutting-edge AI automation solutions that learn and adapt to your business processes, reducing manual work and increasing efficiency by up to 70% while minimizing human error.</p>
+                        
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-brain"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Intelligent Process Automation</h4>
+                                    <p>Machine learning algorithms that continuously optimize workflows, predict bottlenecks, and automate repetitive tasks across your organization.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-robot"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>AI Chatbots & Virtual Assistants</h4>
+                                    <p>Natural language processing powered customer service solutions available 24/7 with human-like interaction capabilities for your clients.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-chart-bar"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Predictive Analytics</h4>
+                                    <p>Advanced forecasting models that analyze historical data and market trends to help you make data-driven strategic decisions with confidence.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex" style="gap: 20px; margin-top: 40px;">
+                            <a href="contact.html" class="btn btn-primary">Get Started</a>
+                            <a href="#" class="btn btn-secondary" id="learnMoreAI">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1677442135136-760c813a743e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="AI Automation">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Cloud Management Service -->
+            <div class="service-details" id="cloud-management">
+                <div class="service-content">
+                    <div class="service-text">
+                        <h2>Enterprise Cloud Solutions</h2>
+                        <p>Secure, scalable cloud infrastructure that ensures your data is accessible, protected, and working for you across all platforms and devices with 99.99% uptime guaranteed.</p>
+                        
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Seamless Data Migration</h4>
+                                    <p>Zero-downtime transition to cloud infrastructure with comprehensive planning and execution to minimize disruption to your operations.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Enterprise-Grade Security</h4>
+                                    <p>Multi-layered protection including encryption, access controls, and continuous monitoring for your critical business data in the cloud.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-sync-alt"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Global Synchronization</h4>
+                                    <p>Real-time data sync across all your locations worldwide with conflict resolution and version control for distributed teams.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex" style="gap: 20px; margin-top: 40px;">
+                            <a href="contact.html" class="btn btn-primary">Get Started</a>
+                            <a href="#" class="btn btn-secondary" id="learnMoreCloud">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Cloud Management">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- CRM Analytics Service -->
+            <div class="service-details" id="crm-analytics">
+                <div class="service-content">
+                    <div class="service-text">
+                        <h2>Smart CRM & Advanced Analytics</h2>
+                        <p>Powerful customer relationship management tools enhanced with predictive analytics to drive your sales strategy forward, maximize customer lifetime value, and boost conversion rates by 30-50%.</p>
+                        
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>360° Customer Insights</h4>
+                                    <p>Comprehensive analytics into customer behavior, preferences, and journey across all touchpoints with your business.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-bullseye"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>AI-Powered Lead Scoring</h4>
+                                    <p>Intelligent prioritization of sales opportunities based on likelihood to convert and potential customer value.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-chart-pie"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Interactive Dashboards</h4>
+                                    <p>Real-time visualization of sales metrics, team performance, and KPIs with drill-down capabilities for deeper analysis.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex" style="gap: 20px; margin-top: 40px;">
+                            <a href="contact.html" class="btn btn-primary">Get Started</a>
+                            <a href="#" class="btn btn-secondary" id="learnMoreCRM">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="CRM Analytics">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Cybersecurity Service -->
+            <div class="service-details" id="cybersecurity">
+                <div class="service-content">
+                    <div class="service-text">
+                        <h2>Comprehensive Cybersecurity</h2>
+                        <p>End-to-end protection for your digital assets with 24/7 monitoring, advanced threat detection, and rapid response protocols to keep your business secure against evolving cyber threats.</p>
+                        
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-lock"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Advanced Threat Prevention</h4>
+                                    <p>Proactive defense against malware, ransomware, phishing, and zero-day attacks using AI-driven security measures.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Continuous Monitoring</h4>
+                                    <p>Round-the-clock surveillance of your digital infrastructure with real-time alerts and automated response protocols.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-user-shield"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Security Awareness Training</h4>
+                                    <p>Comprehensive programs to reduce human risk through employee education and simulated phishing exercises.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex" style="gap: 20px; margin-top: 40px;">
+                            <a href="contact.html" class="btn btn-primary">Get Started</a>
+                            <a href="#" class="btn btn-secondary" id="learnMoreSecurity">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Cybersecurity">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Custom Software Service -->
+            <div class="service-details" id="custom-software">
+                <div class="service-content">
+                    <div class="service-text">
+                        <h2>Custom Software Development</h2>
+                        <p>Tailored software solutions designed specifically for your unique business requirements and workflows, built to scale with your growth and integrate seamlessly with your existing systems.</p>
+                        
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-puzzle-piece"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Bespoke Business Solutions</h4>
+                                    <p>Software designed around your specific processes rather than forcing you to adapt to off-the-shelf solutions.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Cross-Platform Applications</h4>
+                                    <p>Native and web applications that deliver consistent experiences across all devices and operating systems.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-rocket"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Agile Development Process</h4>
+                                    <p>Rapid prototyping and iterative development to ensure the final product perfectly matches your requirements.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex" style="gap: 20px; margin-top: 40px;">
+                            <a href="contact.html" class="btn btn-primary">Get Started</a>
+                            <a href="#" class="btn btn-secondary" id="learnMoreSoftware">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Custom Software">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- All Services Grid -->
+    <section class="section all-services" id="services-grid">
+        <div class="container">
+            <h2 class="section-title text-center">Complete Service Portfolio</h2>
+            <p class="section-subtitle text-center">End-to-end technology solutions for every business need</p>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card animate">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI-Powered Automation</h3>
+                    <p>Transform operations with intelligent automation that learns and adapts to your business processes, reducing costs and increasing efficiency.</p>
+                    <a href="#ai-automation" class="service-link scroll-to-service">
+                        Learn more <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card animate">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Infrastructure</h3>
+                    <p>Secure, scalable cloud solutions with 99.99% uptime guarantee, ensuring your data is always accessible and protected.</p>
+                    <a href="#cloud-management" class="service-link scroll-to-service">
+                        Learn more <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card animate">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>CRM & Analytics</h3>
+                    <p>Advanced customer relationship tools with predictive analytics to drive sales growth and customer satisfaction.</p>
+                    <a href="#crm-analytics" class="service-link scroll-to-service">
+                        Learn more <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card animate">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Cybersecurity</h3>
+                    <p>Comprehensive protection with 24/7 monitoring and rapid response to keep your business secure against threats.</p>
+                    <a href="#cybersecurity" class="service-link scroll-to-service">
+                        Learn more <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="service-card animate">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Custom Software</h3>
+                    <p>Tailored solutions designed specifically for your business requirements and workflows.</p>
+                    <a href="#custom-software" class="service-link scroll-to-service">
+                        Learn more <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="service-card animate">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>IT Infrastructure</h3>
+                    <p>Robust and scalable IT infrastructure solutions to support your business operations and growth.</p>
+                    <a href="#" class="service-link">
+                        Learn more <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 7 -->
+                <div class="service-card animate">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Data Management</h3>
+                    <p>Comprehensive data solutions including warehousing, analytics, and business intelligence.</p>
+                    <a href="#" class="service-link">
+                        Learn more <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 8 -->
+                <div class="service-card animate">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Development</h3>
+                    <p>Beautiful, functional mobile applications for iOS and Android that engage your customers.</p>
+                    <a href="#" class="service-link">
+                        Learn more <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="section process" id="our-process">
+        <div class="container">
+            <h2 class="section-title text-center">Our Proven Process</h2>
+            <p class="section-subtitle text-center">A structured approach to delivering exceptional results</p>
+            
+            <div class="process-steps">
+                <!-- Step 1 -->
+                <div class="process-step animate">
+                    <div class="process-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Discovery & Analysis</h3>
+                    <p>We begin by thoroughly understanding your business objectives, challenges, and technical requirements through in-depth consultations.</p>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="process-step animate">
+                    <div class="process-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Solution Design</h3>
+                    <p>Our experts develop a customized technology roadmap with detailed specifications and architecture aligned with your goals.</p>
+                </div>
+                
+                <!-- Step 3 -->
+                <div class="process-step animate">
+                    <div class="process-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Development</h3>
+                    <p>We build your solution using agile methodologies with regular progress updates and opportunities for feedback at every stage.</p>
+                </div>
+                
+                <!-- Step 4 -->
+                <div class="process-step animate">
+                    <div class="process-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Deployment</h3>
+                    <p>Seamless implementation with comprehensive training, documentation, and support to ensure smooth adoption across your organization.</p>
+                </div>
+                
+                <!-- Step 5 -->
+                <div class="process-step animate">
+                    <div class="process-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Optimization</h3>
+                    <p>Continuous monitoring, performance tuning, and feature enhancements to ensure your solution evolves with your business needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials">
+        <div class="container">
+            <h2 class="section-title text-center">Client Success Stories</h2>
+            <p class="section-subtitle text-center">Don't just take our word for it - hear from our satisfied clients</p>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <p>"NovaTech's AI automation solutions transformed our operations completely. We've seen a 68% increase in operational efficiency and significant cost savings across multiple departments. Their team was professional, knowledgeable, and delivered beyond our expectations."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Sarah Johnson" class="author-avatar">
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>CEO, TechForward Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>"The cybersecurity solutions provided by NovaTech gave us complete peace of mind. Their 24/7 monitoring detected and prevented several sophisticated threats before they could impact our business. The regular security reports and recommendations have been invaluable."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen" class="author-avatar">
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p>CTO, SecureSystems Ltd.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>"Working with NovaTech on our custom CRM platform was a game-changer for our sales team. The insights we've gained from their analytics tools have directly contributed to a 42% increase in our sales conversions and significantly improved customer retention."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emily Rodriguez" class="author-avatar">
+                        <div class="author-info">
+                            <h4>Emily Rodriguez</h4>
+                            <p>Sales Director, GrowthMarketing Co.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slider-nav">
+                <div class="slider-dot active" data-slide="0"></div>
+                <div class="slider-dot" data-slide="1"></div>
+                <div class="slider-dot" data-slide="2"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq">
+        <div class="container">
+            <h2 class="section-title text-center">Frequently Asked Questions</h2>
+            <p class="section-subtitle text-center">Find answers to common questions about our services</p>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What industries do you specialize in?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>While we serve clients across various industries, we have particular expertise in financial services, healthcare, e-commerce, manufacturing, and professional services. Our solutions are adaptable to any industry, and we take the time to understand your specific sector's challenges and compliance requirements.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How do you ensure the security of our data?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>We implement multiple layers of security including encryption (both at rest and in transit), strict access controls, regular security audits, and continuous monitoring. All our solutions are designed with security-first principles and comply with industry standards like ISO 27001, SOC 2, and GDPR where applicable.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What is your typical project timeline?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Project timelines vary based on complexity, but most implementations range from 4-12 weeks. We follow an agile methodology, delivering working components in 2-4 week sprints. This allows for early testing and the ability to adjust requirements as needed. During our discovery phase, we'll provide a detailed timeline tailored to your specific project.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do you provide ongoing support after implementation?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Yes, we offer comprehensive support packages that include regular maintenance, updates, 24/7 monitoring, and access to our technical team. Our support agreements are customizable to match your needs, from basic maintenance to full managed services where we handle all technical aspects for you.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How do you handle data migration from our existing systems?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Our data migration process begins with a thorough audit of your current data structure. We then develop a detailed migration plan that includes data cleansing, transformation, validation, and testing. We perform migrations in phases with rollback capabilities to minimize risk, and we always maintain a complete backup of your original data throughout the process.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Transform Your Business with Technology?</h2>
+            <p>Discover how NovaTech Solutions can help you innovate, elevate, and dominate your industry with our cutting-edge technology services tailored to your specific needs.</p>
+            <div class="flex" style="gap: 20px; justify-content: center;">
+                <a href="contact.html" class="btn btn-primary">Get Started Today</a>
+                <a href="#" class="btn btn-secondary" id="scheduleDemo">Schedule Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- About Column -->
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <i class="fas fa-rocket footer-logo-icon"></i>
+                        NovaTech Solutions
+                    </div>
+                    <p>Innovating business solutions through cutting-edge technology to drive efficiency, security, and sustainable growth for organizations worldwide.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Links Column 1 -->
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                      
+                    </ul>
+                </div>
+                
+                <!-- Links Column 2 -->
+                <div class="footer-links">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#ai-automation">AI Automation</a></li>
+                        <li><a href="#cloud-management">Cloud Solutions</a></li>
+                        <li><a href="#crm-analytics">CRM Analytics</a></li>
+                        <li><a href="#cybersecurity">Cybersecurity</a></li>
+                </div>
+                
+                <!-- Contact Column -->
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Tech Street, NovaTech City</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) NovaTech</p>
+                    <p><i class="fas fa-envelope"></i> info@novatech.com</p>
+                    <p><i class="fas fa-clock"></i> Mon-Fri: 9AM - 6PM </p>
+                    <p><i class="fas fa-headset"></i> Support: 24/7 Emergency</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 NovaTech Solutions. All Rights Reserved. | <a href="legal/privacy.html">Privacy Policy</a> | <a href="legal/terms.html">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+  
+
+    <!-- Service Detail Modal -->
+    <div class="modal" id="serviceModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <h2 class="modal-title" id="modalTitle">AI-Powered Business Automation</h2>
+            
+            <div class="modal-form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" id="name" class="form-input" placeholder="Enter your name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" id="email" class="form-input" placeholder="Enter your email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="company" class="form-label">Company Name</label>
+                    <input type="text" id="company" class="form-input" placeholder="Enter your company name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message" class="form-label">Your Questions/Requirements</label>
+                    <textarea id="message" class="form-textarea" placeholder="Tell us about your project or specific needs"></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Request Information</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Demo Modal -->
+    <div class="modal" id="demoModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeDemoModal">&times;</span>
+            <h2 class="modal-title">Schedule a Personalized Demo</h2>
+            
+            <div class="modal-form">
+                <div class="form-group">
+                    <label for="demoName" class="form-label">Full Name</label>
+                    <input type="text" id="demoName" class="form-input" placeholder="Enter your name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="demoEmail" class="form-label">Email Address</label>
+                    <input type="email" id="demoEmail" class="form-input" placeholder="Enter your email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="demoCompany" class="form-label">Company Name</label>
+                    <input type="text" id="demoCompany" class="form-input" placeholder="Enter your company name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="demoService" class="form-label">Service of Interest</label>
+                    <select id="demoService" class="form-input">
+                        <option value="">Select a service</option>
+                        <option value="ai-automation">AI Automation</option>
+                        <option value="cloud-management">Cloud Solutions</option>
+                        <option value="crm-analytics">CRM Analytics</option>
+                        <option value="cybersecurity">Cybersecurity</option>
+                        <option value="custom-software">Custom Software</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="demoDate" class="form-label">Preferred Date & Time</label>
+                    <input type="datetime-local" id="demoDate" class="form-input">
+                </div>
+                
+                <div class="form-group">
+                    <label for="demoNotes" class="form-label">Additional Notes</label>
+                    <textarea id="demoNotes" class="form-textarea" placeholder="Any specific areas you'd like us to focus on during the demo"></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Schedule Demo</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/services.js"></script>
+</body>
+</html>
